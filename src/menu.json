@@ -1,0 +1,1332 @@
+{
+ "source": "Printed menu, May 2026 (_fb-pack/images/img-001.jpg, img-002.jpg)",
+ "sets": [
+  {
+   "id": "A",
+   "name": "Set meal A",
+   "per": "For one person or more",
+   "price": 18.0,
+   "min": 1,
+   "items": [
+    "Spare Ribs with Lemon",
+    "Sweet & Sour Chicken in Batter",
+    "Egg Fried Rice",
+    "Prawn Crackers"
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Set meal B",
+   "per": "Minimum two people",
+   "price": 19.5,
+   "min": 2,
+   "items": [
+    "Spare Ribs with Lemon",
+    "Sweet & Sour Chicken in Batter",
+    "Beef with Mushroom",
+    "King Prawn with Cashew Nuts",
+    "Young Chow Fried Rice",
+    "Prawn Crackers"
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Set meal C",
+   "per": "Minimum two people",
+   "price": 21.5,
+   "min": 2,
+   "items": [
+    "Spare Ribs with Garlic & Peppercorn Salt",
+    "Sweet & Sour King Prawn in Batter",
+    "Shredded Beef Slivers with Chilli Sauce",
+    "Chicken with Mixed Vegetable",
+    "Young Chow Fried Rice",
+    "Prawn Crackers",
+    "Crispy Spring Roll"
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Vegetarian set meal",
+   "per": "Minimum two people",
+   "price": 15.0,
+   "min": 2,
+   "items": [
+    "Vegetable Spring Roll",
+    "Tofu with Vegetables",
+    "Sweet & Sour Vegetables",
+    "Fried Mushrooms",
+    "Boiled Rice"
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "id": "appetisers",
+   "name": "Appetisers",
+   "icon": "ic-spring-roll",
+   "dishes": [
+    {
+     "no": 1,
+     "name": "Spring Roll",
+     "full": "Spring Roll",
+     "flags": [],
+     "note": "Meat or vegetable",
+     "price": 3.5
+    },
+    {
+     "no": 2,
+     "name": "Crispy Pancake Roll",
+     "full": "Crispy Pancake Roll",
+     "flags": [],
+     "price": 3.5
+    },
+    {
+     "no": 3,
+     "name": "Sesame Prawn Toast",
+     "full": "Sesame Prawn Toast",
+     "flags": [],
+     "price": 5.8
+    },
+    {
+     "no": 4,
+     "name": "Deep Fried Crispy Won Ton",
+     "full": "Deep Fried Crispy Won Ton",
+     "flags": [],
+     "price": 5.5
+    },
+    {
+     "no": 5,
+     "name": "Deep Fried Crispy Cheesy Won Ton",
+     "full": "Deep Fried Crispy Cheesy Won Ton",
+     "flags": [
+      "leaf"
+     ],
+     "price": 5.5
+    },
+    {
+     "no": 6,
+     "name": "Crispy Seaweed",
+     "full": "Crispy Seaweed",
+     "flags": [],
+     "price": 5.8
+    },
+    {
+     "no": 7,
+     "name": "Chicken Wing with Honey Sauce",
+     "full": "Chicken Wing with Honey Sauce",
+     "flags": [],
+     "price": 5.8
+    },
+    {
+     "no": 8,
+     "name": "Chicken Wing with Peppercorn Salt",
+     "full": "Chicken Wing with Peppercorn Salt",
+     "flags": [
+      "chilli"
+     ],
+     "price": 5.8
+    },
+    {
+     "no": 9,
+     "name": "Chicken Satay Skewers",
+     "full": "Chicken Satay Skewers",
+     "flags": [],
+     "price": 6.8
+    }
+   ]
+  },
+  {
+   "id": "soups",
+   "name": "Soups",
+   "icon": "ic-soup",
+   "dishes": [
+    {
+     "no": 10,
+     "name": "Crab Meat Sweetcorn",
+     "full": "Crab Meat Sweetcorn soup",
+     "flags": [],
+     "price": 4.2
+    },
+    {
+     "no": 11,
+     "name": "Chicken Sweetcorn",
+     "full": "Chicken Sweetcorn soup",
+     "flags": [],
+     "price": 4.2
+    },
+    {
+     "no": 12,
+     "name": "Chicken, Ham & Mushrooms",
+     "full": "Chicken, Ham & Mushrooms soup",
+     "flags": [],
+     "price": 4.2
+    },
+    {
+     "no": 13,
+     "name": "Chicken Noodle",
+     "full": "Chicken Noodle soup",
+     "flags": [],
+     "price": 4.2
+    },
+    {
+     "no": 14,
+     "name": "Won Ton",
+     "full": "Won Ton soup",
+     "flags": [],
+     "price": 4.2
+    },
+    {
+     "no": 15,
+     "name": "Hot & Sour",
+     "full": "Hot & Sour soup",
+     "flags": [
+      "chilli"
+     ],
+     "price": 4.2
+    }
+   ]
+  },
+  {
+   "id": "duck",
+   "name": "Duck",
+   "icon": "ic-duck",
+   "dishes": [
+    {
+     "no": 16,
+     "name": "Crispy Aromatic Duck",
+     "full": "Crispy Aromatic Duck",
+     "flags": [],
+     "prices": [
+      [
+       "Quarter",
+       11.5
+      ],
+      [
+       "Half",
+       20.0
+      ]
+     ]
+    },
+    {
+     "no": 17,
+     "name": "Duck Chinese Style",
+     "full": "Duck Chinese Style",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 18,
+     "name": "Duck with Plum Sauce",
+     "full": "Duck with Plum Sauce",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 19,
+     "name": "Duck with Orange Sauce",
+     "full": "Duck with Orange Sauce",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 20,
+     "name": "Duck with Pineapple",
+     "full": "Duck with Pineapple",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 21,
+     "name": "Duck with Beansprouts",
+     "full": "Duck with Beansprouts",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 22,
+     "name": "Duck with Mushrooms",
+     "full": "Duck with Mushrooms",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 23,
+     "name": "Duck with Green Peppers & Black Bean Sauce",
+     "full": "Duck with Green Peppers & Black Bean Sauce",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 24,
+     "name": "Duck with Ginger & Spring Onions",
+     "full": "Duck with Ginger & Spring Onions",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 25,
+     "name": "Duck with Vegetables",
+     "full": "Duck with Vegetables",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 26,
+     "name": "Duck with Szechuan Sauce",
+     "full": "Duck with Szechuan Sauce",
+     "flags": [],
+     "price": 7.3
+    }
+   ]
+  },
+  {
+   "id": "king-prawn",
+   "name": "King prawn",
+   "icon": "ic-prawn",
+   "dishes": [
+    {
+     "no": 27,
+     "name": "Deep Fried King Prawn with Garlic & Peppercorn Salt",
+     "full": "Deep Fried King Prawn with Garlic & Peppercorn Salt",
+     "flags": [
+      "chilli"
+     ],
+     "price": 7.3
+    },
+    {
+     "no": 28,
+     "name": "King Prawn with Green Peppers & Black Bean Sauce",
+     "full": "King Prawn with Green Peppers & Black Bean Sauce",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 29,
+     "name": "King Prawn with Mixed Vegetable",
+     "full": "King Prawn with Mixed Vegetable",
+     "flags": [],
+     "note": "Chop Suey",
+     "price": 7.3
+    },
+    {
+     "no": 30,
+     "name": "Deep Fried King Prawns with Kung Po Chilli Sauce",
+     "full": "Deep Fried King Prawns with Kung Po Chilli Sauce",
+     "flags": [
+      "chilli",
+      "nut"
+     ],
+     "price": 7.3
+    },
+    {
+     "no": 31,
+     "name": "King Prawn Szechuan Style",
+     "full": "King Prawn Szechuan Style",
+     "flags": [
+      "chilli"
+     ],
+     "price": 7.3
+    },
+    {
+     "no": 32,
+     "name": "King Prawn with Satay Sauce",
+     "full": "King Prawn with Satay Sauce",
+     "flags": [
+      "chilli",
+      "nut"
+     ],
+     "price": 7.3
+    },
+    {
+     "no": 33,
+     "name": "Deep Fried King Prawn with Garlic Butter",
+     "full": "Deep Fried King Prawn with Garlic Butter",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 34,
+     "name": "King Prawn with Cashew Nuts",
+     "full": "King Prawn with Cashew Nuts",
+     "flags": [
+      "nut"
+     ],
+     "price": 7.3
+    }
+   ]
+  },
+  {
+   "id": "squid",
+   "name": "Squid",
+   "icon": "ic-squid",
+   "dishes": [
+    {
+     "no": 35,
+     "name": "Deep Fried Squid with Peppercorn Salt",
+     "full": "Deep Fried Squid with Peppercorn Salt",
+     "flags": [
+      "chilli"
+     ],
+     "price": 7.3
+    },
+    {
+     "no": 36,
+     "name": "Squid with Ginger & Spring Onions",
+     "full": "Squid with Ginger & Spring Onions",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 37,
+     "name": "Squid with Mixed Vegetables",
+     "full": "Squid with Mixed Vegetables",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 38,
+     "name": "Squid with Green Peppers & Black Bean Sauce",
+     "full": "Squid with Green Peppers & Black Bean Sauce",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 39,
+     "name": "Squid with Satay Sauce",
+     "full": "Squid with Satay Sauce",
+     "flags": [
+      "chilli",
+      "nut"
+     ],
+     "price": 7.3
+    }
+   ]
+  },
+  {
+   "id": "fillet-steak",
+   "name": "Fillet steak",
+   "icon": "ic-steak",
+   "dishes": [
+    {
+     "no": 40,
+     "name": "Fillet Steak Cantonese Style",
+     "full": "Fillet Steak Cantonese Style",
+     "flags": [],
+     "price": 11.5
+    },
+    {
+     "no": 41,
+     "name": "Fillet Steak with Satay Sauce",
+     "full": "Fillet Steak with Satay Sauce",
+     "flags": [
+      "chilli",
+      "nut"
+     ],
+     "price": 11.5
+    },
+    {
+     "no": 42,
+     "name": "Fillet Steak with Green Pepper & Black Bean Sauce",
+     "full": "Fillet Steak with Green Pepper & Black Bean Sauce",
+     "flags": [],
+     "price": 11.5
+    },
+    {
+     "no": 43,
+     "name": "Fillet Steak with Creamy Black Pepper Sauce",
+     "full": "Fillet Steak with Creamy Black Pepper Sauce",
+     "flags": [],
+     "price": 11.5
+    },
+    {
+     "no": 44,
+     "name": "Fillet Steak with Ginger & Spring Onions",
+     "full": "Fillet Steak with Ginger & Spring Onions",
+     "flags": [],
+     "price": 11.5
+    },
+    {
+     "no": 45,
+     "name": "Fillet Steak with Garlic Sauce",
+     "full": "Fillet Steak with Garlic Sauce",
+     "flags": [],
+     "price": 11.5
+    }
+   ]
+  },
+  {
+   "id": "chicken",
+   "name": "Chicken",
+   "icon": "ic-chicken",
+   "dishes": [
+    {
+     "no": 46,
+     "name": "Chicken with Satay Sauce",
+     "full": "Chicken with Satay Sauce",
+     "flags": [
+      "chilli",
+      "nut"
+     ],
+     "price": 6.8
+    },
+    {
+     "no": 47,
+     "name": "Deep Fried Chicken with Kung Po Chilli Sauce",
+     "full": "Deep Fried Chicken with Kung Po Chilli Sauce",
+     "flags": [
+      "chilli",
+      "nut"
+     ],
+     "price": 6.8
+    },
+    {
+     "no": 48,
+     "name": "Chicken with Pineapple",
+     "full": "Chicken with Pineapple",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 49,
+     "name": "Chicken with Lychee",
+     "full": "Chicken with Lychee",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 50,
+     "name": "Chicken with Mushrooms",
+     "full": "Chicken with Mushrooms",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 51,
+     "name": "Chicken with Mixed Vegetables",
+     "full": "Chicken with Mixed Vegetables",
+     "flags": [],
+     "note": "Chop Suey",
+     "price": 6.8
+    },
+    {
+     "no": 52,
+     "name": "Chicken Szechuan Style",
+     "full": "Chicken Szechuan Style",
+     "flags": [
+      "chilli"
+     ],
+     "price": 6.8
+    },
+    {
+     "no": 53,
+     "name": "Chicken with Ginger & Spring Onions",
+     "full": "Chicken with Ginger & Spring Onions",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 54,
+     "name": "Chicken with Cashew Nuts",
+     "full": "Chicken with Cashew Nuts",
+     "flags": [
+      "nut"
+     ],
+     "price": 6.8
+    },
+    {
+     "no": 55,
+     "name": "Chicken with Green Peppers & Black Bean Sauce",
+     "full": "Chicken with Green Peppers & Black Bean Sauce",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 56,
+     "name": "Deep Fried Chicken with Lemon Sauce",
+     "full": "Deep Fried Chicken with Lemon Sauce",
+     "flags": [],
+     "price": 7.0
+    },
+    {
+     "no": 57,
+     "name": "Deep Fried Chicken with Orange Sauce",
+     "full": "Deep Fried Chicken with Orange Sauce",
+     "flags": [],
+     "price": 7.0
+    },
+    {
+     "no": 58,
+     "name": "Chicken with Thai Style Sauce",
+     "full": "Chicken with Thai Style Sauce",
+     "flags": [
+      "chilli"
+     ],
+     "price": 6.8
+    },
+    {
+     "no": 59,
+     "name": "Smoked Chilli Chicken",
+     "full": "Smoked Chilli Chicken",
+     "flags": [
+      "chilli"
+     ],
+     "price": 6.8
+    },
+    {
+     "no": 60,
+     "name": "Sesame Chicken with Sweet & Sour Sauce",
+     "full": "Sesame Chicken with Sweet & Sour Sauce",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 61,
+     "name": "Deep Fried Chicken with Marmite Sauce",
+     "full": "Deep Fried Chicken with Marmite Sauce",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 62,
+     "name": "Deep Fried Chicken with Garlic & Peppercorn Salt",
+     "full": "Deep Fried Chicken with Garlic & Peppercorn Salt",
+     "flags": [
+      "chilli"
+     ],
+     "price": 6.8
+    },
+    {
+     "no": 63,
+     "name": "Crispy Shredded Chicken Slivers with Chilli Sauce",
+     "full": "Crispy Shredded Chicken Slivers with Chilli Sauce",
+     "flags": [
+      "chilli"
+     ],
+     "price": 6.8
+    }
+   ]
+  },
+  {
+   "id": "roast-pork",
+   "name": "Roast pork",
+   "icon": "ic-pork",
+   "dishes": [
+    {
+     "no": 64,
+     "name": "Roast Pork Chinese Style",
+     "full": "Roast Pork Chinese Style",
+     "flags": [],
+     "price": 6.6
+    },
+    {
+     "no": 65,
+     "name": "Roast Pork with Beansprouts",
+     "full": "Roast Pork with Beansprouts",
+     "flags": [],
+     "price": 6.6
+    },
+    {
+     "no": 66,
+     "name": "Roast Pork with Green Peppers & Black Bean Sauce",
+     "full": "Roast Pork with Green Peppers & Black Bean Sauce",
+     "flags": [],
+     "price": 6.6
+    },
+    {
+     "no": 67,
+     "name": "Roast Pork with Ginger & Spring Onions",
+     "full": "Roast Pork with Ginger & Spring Onions",
+     "flags": [],
+     "price": 6.6
+    },
+    {
+     "no": 68,
+     "name": "Roast Pork with Mushrooms",
+     "full": "Roast Pork with Mushrooms",
+     "flags": [],
+     "price": 6.6
+    }
+   ]
+  },
+  {
+   "id": "beef",
+   "name": "Beef",
+   "icon": "ic-beef",
+   "dishes": [
+    {
+     "no": 69,
+     "name": "Beef with Sweet Chilli Sauce",
+     "full": "Beef with Sweet Chilli Sauce",
+     "flags": [
+      "chilli"
+     ],
+     "price": 6.8
+    },
+    {
+     "no": 70,
+     "name": "Beef with Ginger & Spring Onions",
+     "full": "Beef with Ginger & Spring Onions",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 71,
+     "name": "Beef with Beansprouts",
+     "full": "Beef with Beansprouts",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 72,
+     "name": "Beef with Mixed Vegetables",
+     "full": "Beef with Mixed Vegetables",
+     "flags": [],
+     "note": "Chop Suey",
+     "price": 6.8
+    },
+    {
+     "no": 73,
+     "name": "Beef with Mushrooms",
+     "full": "Beef with Mushrooms",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 74,
+     "name": "Beef with Satay Sauce",
+     "full": "Beef with Satay Sauce",
+     "flags": [
+      "chilli",
+      "nut"
+     ],
+     "price": 6.8
+    },
+    {
+     "no": 75,
+     "name": "Beef Cantonese Style",
+     "full": "Beef Cantonese Style",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 76,
+     "name": "Beef Szechuan Style",
+     "full": "Beef Szechuan Style",
+     "flags": [
+      "chilli"
+     ],
+     "price": 6.8
+    },
+    {
+     "no": 77,
+     "name": "Beef with Garlic Sauce",
+     "full": "Beef with Garlic Sauce",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 78,
+     "name": "Beef with Green Peppers & Black Bean Sauce",
+     "full": "Beef with Green Peppers & Black Bean Sauce",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 79,
+     "name": "Beef with Tomatoes",
+     "full": "Beef with Tomatoes",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 80,
+     "name": "Crispy Shredded Beef Slivers with Garlic & Peppercorn Salt",
+     "full": "Crispy Shredded Beef Slivers with Garlic & Peppercorn Salt",
+     "flags": [
+      "chilli"
+     ],
+     "price": 7.0
+    },
+    {
+     "no": 81,
+     "name": "Crispy Shredded Beef Slivers with Chilli Sauce",
+     "full": "Crispy Shredded Beef Slivers with Chilli Sauce",
+     "flags": [
+      "chilli"
+     ],
+     "price": 7.0
+    }
+   ]
+  },
+  {
+   "id": "curry",
+   "name": "Curry",
+   "icon": "ic-curry",
+   "dishes": [
+    {
+     "no": 82,
+     "name": "House Special",
+     "full": "House Special curry",
+     "flags": [
+      "chilli"
+     ],
+     "price": 9.5
+    },
+    {
+     "no": 83,
+     "name": "King Prawn",
+     "full": "King Prawn curry",
+     "flags": [
+      "chilli"
+     ],
+     "price": 9.5
+    },
+    {
+     "no": 84,
+     "name": "Chicken",
+     "full": "Chicken curry",
+     "flags": [
+      "chilli"
+     ],
+     "price": 8.8
+    },
+    {
+     "no": 85,
+     "name": "Beef",
+     "full": "Beef curry",
+     "flags": [
+      "chilli"
+     ],
+     "price": 8.8
+    },
+    {
+     "no": 86,
+     "name": "Roast Pork",
+     "full": "Roast Pork curry",
+     "flags": [
+      "chilli"
+     ],
+     "price": 8.8
+    },
+    {
+     "no": 87,
+     "name": "Vegetables",
+     "full": "Vegetables curry",
+     "flags": [
+      "chilli",
+      "leaf"
+     ],
+     "price": 8.0
+    },
+    {
+     "no": 88,
+     "name": "Mushrooms",
+     "full": "Mushrooms curry",
+     "flags": [
+      "chilli"
+     ],
+     "price": 8.0
+    }
+   ],
+   "note": "Served with boiled rice or chips."
+  },
+  {
+   "id": "fu-yung",
+   "name": "Fu yung & omelette",
+   "icon": "ic-egg",
+   "dishes": [
+    {
+     "no": 89,
+     "name": "House Special",
+     "full": "House Special fu yung",
+     "flags": [],
+     "price": 7.5
+    },
+    {
+     "no": 90,
+     "name": "King Prawn",
+     "full": "King Prawn fu yung",
+     "flags": [],
+     "price": 7.5
+    },
+    {
+     "no": 91,
+     "name": "Shrimp",
+     "full": "Shrimp fu yung",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 92,
+     "name": "Chicken",
+     "full": "Chicken fu yung",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 93,
+     "name": "Roast Pork",
+     "full": "Roast Pork fu yung",
+     "flags": [],
+     "price": 6.8
+    },
+    {
+     "no": 94,
+     "name": "Vegetables",
+     "full": "Vegetables fu yung",
+     "flags": [
+      "leaf"
+     ],
+     "price": 6.0
+    },
+    {
+     "no": 95,
+     "name": "Mushrooms",
+     "full": "Mushrooms fu yung",
+     "flags": [],
+     "price": 6.0
+    },
+    {
+     "no": 96,
+     "name": "Plain Omelette",
+     "full": "Plain Omelette",
+     "flags": [],
+     "price": 6.0
+    }
+   ]
+  },
+  {
+   "id": "chow-mein",
+   "name": "Chow mein",
+   "icon": "ic-noodles",
+   "dishes": [
+    {
+     "no": 97,
+     "name": "House Special",
+     "full": "House Special chow mein",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 98,
+     "name": "King Prawn",
+     "full": "King Prawn chow mein",
+     "flags": [],
+     "price": 7.3
+    },
+    {
+     "no": 99,
+     "name": "Shrimp",
+     "full": "Shrimp chow mein",
+     "flags": [],
+     "price": 6.5
+    },
+    {
+     "no": 100,
+     "name": "Roast Pork",
+     "full": "Roast Pork chow mein",
+     "flags": [],
+     "price": 6.5
+    },
+    {
+     "no": 101,
+     "name": "Chicken",
+     "full": "Chicken chow mein",
+     "flags": [],
+     "price": 6.5
+    },
+    {
+     "no": 102,
+     "name": "Beef",
+     "full": "Beef chow mein",
+     "flags": [],
+     "price": 6.5
+    },
+    {
+     "no": 103,
+     "name": "Young Chow",
+     "full": "Young Chow chow mein",
+     "flags": [],
+     "price": 6.5
+    },
+    {
+     "no": 104,
+     "name": "Singapore",
+     "full": "Singapore chow mein",
+     "flags": [
+      "chilli"
+     ],
+     "price": 6.5
+    },
+    {
+     "no": 105,
+     "name": "Mushrooms",
+     "full": "Mushrooms chow mein",
+     "flags": [],
+     "price": 6.0
+    },
+    {
+     "no": 106,
+     "name": "Vegetables",
+     "full": "Vegetables chow mein",
+     "flags": [
+      "leaf"
+     ],
+     "price": 6.0
+    },
+    {
+     "no": 107,
+     "name": "Singapore Rice Noodle",
+     "full": "Singapore Rice Noodle",
+     "flags": [
+      "chilli"
+     ],
+     "note": "Vermicelli",
+     "price": 7.3
+    },
+    {
+     "no": 108,
+     "name": "Plain Chow Mein",
+     "full": "Plain Chow Mein",
+     "flags": [],
+     "price": 5.3
+    }
+   ]
+  },
+  {
+   "id": "spare-ribs",
+   "name": "Spare ribs",
+   "icon": "ic-ribs",
+   "dishes": [
+    {
+     "no": 109,
+     "name": "Spare Ribs with Garlic & Peppercorn Salt",
+     "full": "Spare Ribs with Garlic & Peppercorn Salt",
+     "flags": [
+      "chilli"
+     ],
+     "price": 7.0
+    },
+    {
+     "no": 110,
+     "name": "Spare Ribs Capital Style",
+     "full": "Spare Ribs Capital Style",
+     "flags": [],
+     "price": 7.0
+    },
+    {
+     "no": 111,
+     "name": "Spare Ribs Hong Kong Style",
+     "full": "Spare Ribs Hong Kong Style",
+     "flags": [],
+     "price": 7.0
+    },
+    {
+     "no": 112,
+     "name": "Spare Ribs with Lemon",
+     "full": "Spare Ribs with Lemon",
+     "flags": [],
+     "price": 7.0
+    },
+    {
+     "no": 113,
+     "name": "Spare Ribs with Honey Sauce",
+     "full": "Spare Ribs with Honey Sauce",
+     "flags": [],
+     "price": 7.0
+    },
+    {
+     "no": 114,
+     "name": "Spare Ribs with BBQ Sauce",
+     "full": "Spare Ribs with BBQ Sauce",
+     "flags": [],
+     "price": 7.0
+    }
+   ]
+  },
+  {
+   "id": "sweet-sour",
+   "name": "Sweet & sour",
+   "icon": "ic-sweetsour",
+   "dishes": [
+    {
+     "no": 115,
+     "name": "Sweet & Sour King Prawn in Batter",
+     "full": "Sweet & Sour King Prawn in Batter",
+     "flags": [],
+     "price": 7.5
+    },
+    {
+     "no": 116,
+     "name": "Sweet & Sour Chicken in Batter",
+     "full": "Sweet & Sour Chicken in Batter",
+     "flags": [],
+     "price": 7.0
+    },
+    {
+     "no": 117,
+     "name": "Sweet & Sour King Prawn Hong Kong Style",
+     "full": "Sweet & Sour King Prawn Hong Kong Style",
+     "flags": [],
+     "price": 7.5
+    },
+    {
+     "no": 118,
+     "name": "Sweet & Sour Chicken Hong Kong Style",
+     "full": "Sweet & Sour Chicken Hong Kong Style",
+     "flags": [],
+     "price": 7.0
+    },
+    {
+     "no": 119,
+     "name": "Sweet & Sour Pork Hong Kong Style",
+     "full": "Sweet & Sour Pork Hong Kong Style",
+     "flags": [],
+     "price": 7.0
+    }
+   ]
+  },
+  {
+   "id": "rice",
+   "name": "Rice",
+   "icon": "ic-rice",
+   "dishes": [
+    {
+     "no": 120,
+     "name": "House Special",
+     "full": "House Special fried rice",
+     "flags": [],
+     "price": 6.6
+    },
+    {
+     "no": 121,
+     "name": "Young Chow Fried Rice",
+     "full": "Young Chow Fried Rice",
+     "flags": [],
+     "price": 6.2
+    },
+    {
+     "no": 122,
+     "name": "King Prawn",
+     "full": "King Prawn fried rice",
+     "flags": [],
+     "price": 6.6
+    },
+    {
+     "no": 123,
+     "name": "Shrimp",
+     "full": "Shrimp fried rice",
+     "flags": [],
+     "price": 6.2
+    },
+    {
+     "no": 124,
+     "name": "Roast Pork",
+     "full": "Roast Pork fried rice",
+     "flags": [],
+     "price": 6.2
+    },
+    {
+     "no": 125,
+     "name": "Chicken",
+     "full": "Chicken fried rice",
+     "flags": [],
+     "price": 6.2
+    },
+    {
+     "no": 126,
+     "name": "Beef",
+     "full": "Beef fried rice",
+     "flags": [],
+     "price": 6.2
+    },
+    {
+     "no": 127,
+     "name": "Chicken & Pineapple",
+     "full": "Chicken & Pineapple fried rice",
+     "flags": [],
+     "price": 6.2
+    },
+    {
+     "no": 128,
+     "name": "Singapore",
+     "full": "Singapore fried rice",
+     "flags": [
+      "chilli"
+     ],
+     "price": 6.2
+    },
+    {
+     "no": 129,
+     "name": "Mushrooms",
+     "full": "Mushrooms fried rice",
+     "flags": [
+      "leaf"
+     ],
+     "price": 5.5
+    },
+    {
+     "no": 130,
+     "name": "Vegetables",
+     "full": "Vegetables fried rice",
+     "flags": [
+      "leaf"
+     ],
+     "price": 5.5
+    },
+    {
+     "no": 131,
+     "name": "Egg Fried Rice",
+     "full": "Egg Fried Rice",
+     "flags": [],
+     "price": 4.0
+    },
+    {
+     "no": 132,
+     "name": "Boiled Rice",
+     "full": "Boiled Rice",
+     "flags": [],
+     "price": 3.2
+    }
+   ]
+  },
+  {
+   "id": "extras",
+   "name": "Extra portions & tofu",
+   "icon": "ic-tofu",
+   "dishes": [
+    {
+     "no": 133,
+     "name": "Mixed Vegetables",
+     "full": "Mixed Vegetables",
+     "flags": [
+      "leaf"
+     ],
+     "price": 5.5
+    },
+    {
+     "no": 134,
+     "name": "Fried Mushrooms",
+     "full": "Fried Mushrooms",
+     "flags": [
+      "leaf"
+     ],
+     "price": 5.5
+    },
+    {
+     "no": 135,
+     "name": "Beansprouts",
+     "full": "Beansprouts",
+     "flags": [
+      "leaf"
+     ],
+     "price": 5.5
+    },
+    {
+     "no": 136,
+     "name": "Bamboo Shoots & Water Chestnuts",
+     "full": "Bamboo Shoots & Water Chestnuts",
+     "flags": [
+      "leaf"
+     ],
+     "price": 5.5
+    },
+    {
+     "no": 137,
+     "name": "Sweet & Sour Sauce",
+     "full": "Sweet & Sour Sauce",
+     "flags": [],
+     "price": 1.8
+    },
+    {
+     "no": 138,
+     "name": "Curry Sauce",
+     "full": "Curry Sauce",
+     "flags": [
+      "chilli"
+     ],
+     "price": 1.8
+    },
+    {
+     "no": 139,
+     "name": "BBQ Sauce",
+     "full": "BBQ Sauce",
+     "flags": [],
+     "price": 1.8
+    },
+    {
+     "no": 140,
+     "name": "Chips",
+     "full": "Chips",
+     "flags": [
+      "leaf"
+     ],
+     "price": 3.3
+    },
+    {
+     "no": 141,
+     "name": "Prawn Crackers",
+     "full": "Prawn Crackers",
+     "flags": [],
+     "price": 1.5
+    },
+    {
+     "no": 142,
+     "name": "Chips with Garlic & Peppercorn Salt",
+     "full": "Chips with Garlic & Peppercorn Salt",
+     "flags": [
+      "chilli",
+      "leaf"
+     ],
+     "price": 4.5
+    },
+    {
+     "no": 143,
+     "name": "Tofu with Garlic & Peppercorn Salt",
+     "full": "Tofu with Garlic & Peppercorn Salt",
+     "flags": [
+      "chilli",
+      "leaf"
+     ],
+     "price": 6.2
+    },
+    {
+     "no": 144,
+     "name": "Tofu with Satay Sauce",
+     "full": "Tofu with Satay Sauce",
+     "flags": [
+      "chilli",
+      "nut"
+     ],
+     "price": 6.2
+    },
+    {
+     "no": 145,
+     "name": "Tofu with Szechuan Sauce",
+     "full": "Tofu with Szechuan Sauce",
+     "flags": [
+      "chilli"
+     ],
+     "price": 6.2
+    },
+    {
+     "no": 146,
+     "name": "Tofu with Sweet & Sour Sauce",
+     "full": "Tofu with Sweet & Sour Sauce",
+     "flags": [],
+     "price": 6.2
+    },
+    {
+     "no": 147,
+     "name": "Tofu with Vegetables",
+     "full": "Tofu with Vegetables",
+     "flags": [
+      "leaf"
+     ],
+     "price": 6.2
+    }
+   ]
+  }
+ ]
+}

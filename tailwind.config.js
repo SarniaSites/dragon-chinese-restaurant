@@ -1,37 +1,34 @@
 /** @type {import('tailwindcss').Config} */
+// Every colour comes from the restaurant itself — mostly the shopfront fascia on Southside.
 module.exports = {
   content: ['./*.html', './assets/js/*.js'],
   theme: {
     extend: {
       colors: {
-        // Navy from the shopfront fascia and the logo (#283769 in the profile photo), deepened slightly for text contrast
-        fascia: { DEFAULT: '#1f2b5e', 50: '#f0f2f8', 100: '#e1e5f1', 200: '#c3cae3', 700: '#18224b', 800: '#141c3f', 900: '#0f1530' },
-        // Red of the dining-room lanterns and the headings on the printed menu
-        lantern: { DEFAULT: '#c23a2f', 50: '#fcf2ef', 100: '#f8e0da', 600: '#a83026', 700: '#8c271f' },
-        // Gold of the "DRAGON" plate on the menu cover
-        gold: { DEFAULT: '#d9b56a', 100: '#f6ecd4', 200: '#ecd7a8', 600: '#a8812f' },
-        // Cream from the logo (#e5d9ca) and the menu card paper
-        paper: { DEFAULT: '#f7f0e4', 50: '#fcf9f3', 100: '#f9f4eb', 200: '#efe5d4', 300: '#e5d9ca' },
-        // Vegetarian marker green (the menu's broccoli symbol)
-        leaf: '#3f7d4a',
-        ink: '#1b1e2c',
-        muted: '#5b5f70',
+        // Royal blue of the fascia board and window frames (sampled #0f2b8d–#1c3399 in the sunlit shopfront photo)
+        fascia: {
+          50: '#eef1fb', 100: '#dce2f5', 200: '#b7c3ea', 300: '#8a9bd8',
+          DEFAULT: '#16309a', 600: '#132a86', 700: '#102473', 800: '#0c1b57', 900: '#0a1442',
+        },
+        // Red of the paper lanterns in the dining room and the printed menu headings — the one "action" colour
+        lantern: { DEFAULT: '#c0272d', 600: '#a51f25', 700: '#8a1a1f', 50: '#fcf0ef', 100: '#f8dcda' },
+        // Gold of the key-fret border painted round the fascia
+        fret: { DEFAULT: '#c8a14a', 200: '#ecdcb0', 300: '#dcc07c', 700: '#8e6f25' },
+        // Cream of the painted front wall and the dining-room walls (used as the page ground)
+        wall: { DEFAULT: '#f7f2e8', 50: '#fcfaf5', 100: '#faf6ee', 200: '#efe7d6', 300: '#e3d8c2' },
+        // Text: a very dark version of the fascia blue
+        ink: { DEFAULT: '#111737', soft: '#454b69' },
+        // Vegetarian marker (the menu's broccoli symbol)
+        leaf: '#2f7a3e',
       },
       fontFamily: {
-        display: ['"Playfair Display"', 'Georgia', 'serif'],
-        body: ['Figtree', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif'],
+        display: ['Rufina', 'Georgia', 'serif'],
+        body: ['"Red Hat Text Variable"', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif'],
+        hand: ['Kalam', '"Comic Sans MS"', 'cursive'],
       },
-      maxWidth: { site: '76rem' },
-      keyframes: {
-        sway: { '0%,100%': { transform: 'rotate(-3deg)' }, '50%': { transform: 'rotate(3deg)' } },
-        steam: { '0%': { transform: 'translateY(8px)', opacity: '0' }, '30%': { opacity: '.9' }, '100%': { transform: 'translateY(-22px)', opacity: '0' } },
-        glow: { '0%,100%': { opacity: '.25' }, '50%': { opacity: '.55' } },
-      },
-      animation: {
-        sway: 'sway 5.5s ease-in-out infinite',
-        'sway-slow': 'sway 7s ease-in-out infinite',
-        steam: 'steam 3.6s ease-out infinite',
-        glow: 'glow 5.5s ease-in-out infinite',
+      maxWidth: { site: '78rem' },
+      boxShadow: {
+        ticket: '0 1px 0 rgba(17,23,55,.06), 0 18px 40px -18px rgba(17,23,55,.35)',
       },
     },
   },

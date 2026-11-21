@@ -1,11 +1,10 @@
 {
   "name": "dragon-chinese-restaurant",
-  "version": "1.0.0",
   "private": true,
-  "description": "Website for Dragon Chinese Restaurant, Southside, St Sampsons, Guernsey",
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
-    "watch": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+    "watch": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch",
+    "menu": "node src/build-menu.js"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"

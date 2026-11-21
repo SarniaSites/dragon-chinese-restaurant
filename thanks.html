@@ -2,39 +2,51 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Thank you | Dragon Chinese Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thank you | Dragon Chinese Restaurant in Guernsey</title>
   <meta name="robots" content="noindex">
-  <meta name="theme-color" content="#1f2b5e">
+  <meta name="theme-color" content="#132a86">
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="images/favicon.ico" sizes="any">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class="flex min-h-screen flex-col bg-paper-50">
-  <header class="wrap flex h-[76px] items-center justify-between">
-    <a href="./"><img src="images/brand/logo.svg" alt="Dragon Chinese Restaurant" width="474" height="140" class="h-[44px] w-auto"></a>
-    <a href="tel:+441481244688" class="btn btn-primary hidden !min-h-[46px] sm:inline-flex">01481 244 688</a>
-  </header>
-  <main class="wrap flex flex-1 items-center py-16">
-    <div class="relative mx-auto max-w-xl text-center">
-      <svg viewBox="0 0 120 150" class="mx-auto h-36 w-auto" aria-hidden="true">
-        <path d="M60 0v26" stroke="#1f2b5e" stroke-width="2"/>
-        <rect x="44" y="26" width="32" height="9" rx="2" fill="#d9b56a" stroke="#1f2b5e" stroke-width="2"/>
-        <ellipse cx="60" cy="72" rx="38" ry="40" fill="#c23a2f" stroke="#1f2b5e" stroke-width="2"/>
-        <ellipse cx="60" cy="72" rx="20" ry="40" fill="none" stroke="#1f2b5e" stroke-width="1.6" opacity=".8"/>
-        <path d="M60 32v80" stroke="#1f2b5e" stroke-width="1.6" opacity=".8"/>
-        <rect x="47" y="110" width="26" height="8" rx="2" fill="#d9b56a" stroke="#1f2b5e" stroke-width="2"/>
-        <path d="M55 120v24M60 120v28M65 120v24" stroke="#c23a2f" stroke-width="2.4" stroke-linecap="round"/>
-      </svg>
-      <h1 class="mt-8 font-display text-[2.4rem] font-semibold leading-tight text-fascia sm:text-5xl">Thank you, your message is on its way</h1>
-      <p class="lede mx-auto mt-4 max-w-md">We’ll be in touch soon. Bookings aren’t confirmed until we’ve replied. For anything urgent, or to order a takeaway, call 01481 244 688.</p>
-      <div class="mt-8 flex flex-wrap justify-center gap-3">
-        <a href="./" class="btn btn-red">Back to the home page</a>
-        <a href="./#menu" class="btn btn-ghost">See the menu</a>
+<body class="flex min-h-[100svh] flex-col">
+<header class="wrap py-5">
+  <a href="./" class="inline-block"><img src="images/brand/logo.svg" alt="Dragon Chinese Restaurant" width="491" height="62" class="h-10 w-auto"></a>
+</header>
+<main class="wrap flex flex-1 items-center py-12">
+  <div class="grid w-full items-center gap-12 lg:grid-cols-12">
+    <div class="lg:col-span-7">
+      <p class="label">Request sent</p>
+      <h1 class="mt-4 text-[2.8rem] font-bold leading-[1.02] sm:text-[4rem]">Thank you. We've got your message.</h1>
+      <p class="mt-6 max-w-[34rem] text-[1.12rem] text-ink-soft">We'll get back to you to confirm. If it's for tonight, or you haven't heard from us, give us a ring.</p>
+      <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+        <a href="./" class="btn btn-line">Back to the home page</a>
+        <a href="tel:+441481244688" class="btn btn-call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16.6v2.9a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 2.5 5.2 2 2 0 0 1 4.5 3h2.9a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.4 10.8a16 16 0 0 0 4.8 4.8l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>01481 244 688</a>
       </div>
     </div>
-  </main>
-  <footer class="border-t border-paper-300 py-6 text-center text-sm text-muted">Dragon Chinese Restaurant · Southside, St Sampsons, Guernsey GY2 4QG · <a class="font-semibold text-fascia" href="tel:+441481244688">01481 244 688</a></footer>
+    <div class="lg:col-span-5">
+      <div class="ticket mx-auto max-w-[19rem] -rotate-3 px-5 pb-6 pt-4">
+        <div class="flex items-center justify-between border-b-2 border-fascia-600 pb-2">
+          <span class="font-display text-[1.2rem] font-bold tracking-wide text-fascia-600">DRAGON</span>
+          <span class="text-[0.7rem] font-bold uppercase tracking-[.14em] text-ink-soft">Received</span>
+        </div>
+        <ol class="ticket-lines mt-1 font-hand text-[1.08rem] leading-[34px] text-fascia-700">
+          <li class="flex justify-between gap-2"><span>Your request</span><span>✓</span></li>
+          <li class="flex justify-between gap-2"><span>We'll be in touch</span><span></span></li>
+          <li class="flex justify-between gap-2"><span></span><span></span></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="bg-fascia-800 text-fascia-100">
+  <div class="fret"></div>
+  <div class="wrap flex flex-col gap-2 py-6 text-sm sm:flex-row sm:justify-between">
+    <p>Dragon Chinese Restaurant · Southside, St Sampson's, Guernsey GY2 4QG</p>
+    <p><a href="tel:+441481244688" class="link">01481 244 688</a></p>
+  </div>
+</footer>
 </body>
 </html>
